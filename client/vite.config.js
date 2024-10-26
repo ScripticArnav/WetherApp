@@ -6,7 +6,7 @@ export default defineConfig({
     plugins: [react()],
     server: {
         proxy: {
-            '/api': 'http://localhost:5000'
+            '/api': 'wether-app-sqjf-bnxew6iie-arnav-saxenas-projects.vercel.app'
         }
     }
 });
